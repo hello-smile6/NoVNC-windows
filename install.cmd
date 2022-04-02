@@ -12,7 +12,7 @@ rem vnc-install\git-bash\cmd\git.exe clone --single-branch --depth 1 --no-tags h
 curl --location --progress-bar "https://github.com/novnc/noVNC/archive/refs/tags/v1.3.0.tar.gz" --output -|tar -xf - -C vnc-install
 echo  TightVNC
 curl --location --progress-bar "https://github.com/hello-smile6/NoVNC-windows/releases/download/python/tightvnc.tgz" --output -|tar -xf - -C vnc-install
-vnc-install\git-bash\bin\bash
+rem vnc-install\git-bash\bin\bash
 echo Starting TightVNC
 rem start vnc-install\git-bash\bin\bash.exe vnc-install\NoVNC-1.3.0\utils\novnc_proxy
 set OLDCD=%CD%
